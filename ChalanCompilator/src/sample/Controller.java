@@ -12,7 +12,7 @@ public class Controller extends Application {
     public void evtSalir (ActionEvent event){ System.exit(0); }
     public void evtAbrir (ActionEvent event){
         FileChooser of= new FileChooser();
-        of.setTitle("Abrir archivo ccf");
+        of.setTitle("Abrir archivo ccf ");
         FileChooser.ExtensionFilter filtro= new FileChooser.ExtensionFilter("Archivos .ccf","*.ccf");
         of.getExtensionFilters().add(filtro);
         File file = of.showOpenDialog(stage);
